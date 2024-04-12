@@ -23,3 +23,45 @@ Creating bots for automated clicking in games raises ethical concerns for severa
 9. 
 
 In summary, creating bots for automated clicking in games is unethical because it undermines fair play, disrupts game balance, devalues achievements, erodes community trust, violates terms of service, and violates ethical principles of honesty and integrity. Players should prioritize genuine gameplay, respect the rules and rights of others, and contribute to a positive and inclusive gaming community.
+
+
+
+---
+
+# Cookie Clicker Bot
+
+This Python script automates gameplay for the Cookie Clicker game using Selenium. It clicks on the cookie to earn cookies, purchases upgrades, and displays the cookies per second (CPS) count after a specified duration.
+
+## Features
+
+- **Automated Cookie Clicking**: Automatically clicks on the cookie element to earn cookies.
+- **Upgrade Purchasing**: Periodically checks for affordable upgrades and purchases the most expensive one available.
+- **Cookies Per Second (CPS) Tracking**: After running for 5 minutes, displays the current CPS count.
+
+## Prerequisites
+
+Before running the script, ensure you have the following:
+
+- **Python**: Install Python on your system.
+- **Selenium**: Install the Selenium Python package using `pip install selenium`.
+- **ChromeDriver**: Download the ChromeDriver executable compatible with your Chrome browser version. Ensure the ChromeDriver executable is in the specified path.
+- **Chrome Browser**: Have Google Chrome installed on your system.
+
+## Usage
+
+1. Set up the ChromeDriver path and Chrome options as required.
+2. Replace the URL in `driver.get()` with the URL of the Cookie Clicker game or the desired webpage.
+3. Run the script using a Python interpreter.
+4. Sit back and watch as the bot plays Cookie Clicker on your behalf!
+
+## Customization
+
+- **Loop Timeout**: Adjust the timeout duration for the main loop iteration.
+- **Bot Duration**: Change the duration after which the bot stops and displays the CPS count.
+- **Upgrade Check Frequency**: Modify the frequency of upgrade checks and purchases.
+- **Browser Options**: Customize Chrome browser options based on your requirements.
+
+## Notes
+
+- **Browser Detachment**: By default, the Chrome browser window will remain open after the script finishes executing. This can help diagnose any issues if the script crashes.
+
