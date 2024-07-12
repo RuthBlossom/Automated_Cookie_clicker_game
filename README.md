@@ -25,10 +25,13 @@ Creating bots for automated clicking in games raises ethical concerns for severa
 In summary, creating bots for automated clicking in games is unethical because it undermines fair play, disrupts game balance, devalues achievements, erodes community trust, violates terms of service, and violates ethical principles of honesty and integrity. Players should prioritize genuine gameplay, respect the rules and rights of others, and contribute to a positive and inclusive gaming community.
 
 
+![Capturecookie clicker](https://github.com/user-attachments/assets/de24e6b0-ee9d-495a-b42f-624f705ef974)
 
 ---
 
 # Cookie Clicker Bot
+
+
 
 This Python script automates gameplay for the Cookie Clicker game using Selenium. It clicks on the cookie to earn cookies, purchases upgrades, and displays the cookies per second (CPS) count after a specified duration.
 
